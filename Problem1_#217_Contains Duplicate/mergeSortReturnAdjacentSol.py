@@ -52,6 +52,15 @@ class Solution:
             print(array[i], end=" ")
         print()
 
+    # Check for Duplicates
+
+    def containsDuplicate(self, array: List[int]) -> bool:
+        for i in range(len(array) - 1):
+            if array[i] == array[i+1]:
+                return True
+        return False
+
+
 if __name__ == "__main__":
 
     array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100, 15, -5]
