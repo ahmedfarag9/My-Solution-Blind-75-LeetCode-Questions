@@ -68,3 +68,8 @@ if __name__ == "__main__":
 
     Test = Solution()
     Test.mergeSort(array)
+
+    #print("Sorted array is: ")
+    # Test.printList(array)
+
+    print(Test.containsDuplicate(array))
