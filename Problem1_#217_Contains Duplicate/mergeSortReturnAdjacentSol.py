@@ -47,6 +47,11 @@ class Solution:
                 k += 1
 
     # Print the array
+    def printList(self, array):
+        for i in range(len(array)):
+            print(array[i], end=" ")
+        print()
+
 if __name__ == "__main__":
 
     array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100, 15, -5]
