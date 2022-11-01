@@ -2,6 +2,9 @@
 # Time Complexity worst case O(n)
 # Space Complexity worst case O(n)
 
+# LeetCode Results:
+# Runtime: 1090 ms, faster than 41.85% of Python3 online submissions for Contains Duplicate.
+# Memory Usage: 26 MB, less than 27.65% of Python3 online submissions for Contains Duplicate.
 
 from typing import List
 
