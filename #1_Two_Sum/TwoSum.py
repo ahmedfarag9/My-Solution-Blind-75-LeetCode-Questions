@@ -25,6 +25,19 @@ nums3 = [3, 3]
 target3 = 6
 
 
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # Create Hash set
+        new_dict = {}
+        # Check if set contains input list elements
+        for i in range(len(nums)):
+            v = target - nums[i]
+            if v in new_dict:
+                return [new_dict[v], i]
+            new_dict[nums[i]] = i
+        return []
+
+
 if __name__ == "__main__":
     Test = Solution()
     print(Test.twoSum(nums1, target1))
