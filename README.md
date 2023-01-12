@@ -1,4 +1,4 @@
-# My-Solution-Blind-75-LeetCode-Questions
+# My-Solution-LeetCode-Problems
 
 My Solutions to LeetCode Problems
 
